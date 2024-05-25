@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/tcwar/curseforge/minecraft/Instances/Cursed Walking - A Modern Zombie Apocalypse (14)/saves/New World
+}
+

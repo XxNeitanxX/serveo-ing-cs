@@ -1,0 +1,17 @@
+{
+	id: "1b088897-e9ac-39ab-a7a6-12b491f67559"
+	type: "player"
+	player_name: "Blukrash"
+	ranks: {
+		1b088897-e9ac-39ab-a7a6-12b491f67559: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Blukrash"
+		"ftbteams:description": ""
+		"ftbteams:color": "#6159FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

@@ -1,0 +1,17 @@
+{
+	id: "54a24925-9a8d-3379-92a2-8ad97bda0d25"
+	type: "player"
+	player_name: "MefistSama"
+	ranks: {
+		54a24925-9a8d-3379-92a2-8ad97bda0d25: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "MefistSama"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59FFBB"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
