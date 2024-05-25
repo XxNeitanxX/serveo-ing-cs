@@ -8,7 +8,7 @@
 	properties: {
 		"ftbteams:display_name": "Blukrash"
 		"ftbteams:description": ""
-		"ftbteams:color": "#6159FF"
+		"ftbteams:color": "#C0FF59"
 		"ftbteams:free_to_join": 0b
 		"ftbteams:max_msg_history_size": 1000
 	}
