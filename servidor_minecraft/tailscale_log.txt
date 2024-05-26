@@ -167,3 +167,102 @@ Perhaps ip6tables or your kernel needs to be upgraded.
 2024/05/25 23:14:52 Accept: TCP{100.65.4.46:52674 > 100.107.209.29:25565} 52 tcp ok
 2024/05/25 23:14:52 Accept: TCP{100.107.209.29:25565 > 100.65.4.46:52674} 52 ok out
 2024/05/25 23:14:52 Accept: TCP{100.65.4.46:52674 > 100.107.209.29:25565} 40 tcp non-syn
+2024/05/25 23:15:52 magicsock: closing connection to derp-16 (idle), age 1m0s
+2024/05/25 23:15:52 magicsock: 1 active derp conns: derp-1=cr26m0s,wr20m0s
+2024/05/25 23:20:23 c2n: GET /update received
+2024/05/25 23:20:23 c2n: POST /update received
+2024/05/25 23:20:23 c2n: running "systemd-run --wait --pipe --collect /usr/local/bin/tailscale update --yes"
+2024/05/25 23:20:23 c2n: update command failed: exit status 1, output: [0;1;31mSystem has not been booted with systemd as init system (PID 1). Can't operate.[0m
+[0;1;31mFailed to create bus connection: Host is down[0m
+2024/05/25 23:20:25 RAW-STDERR: {"logtail": {"client_time": "2024-05-25T23:20:23.833280095Z","proc_id": 2789931316,"proc_seq": 356}, "text": "c2n: update command failed: exit status 1, output: [0;1;31mSystem has not been booted with systemd as init system (PID 1). Can't operate.[0m\n[0;1;31mFailed to create bus connection: Host is down[0m\n"}
+2024/05/25 23:54:41 c2n: GET /update received
+2024/05/25 23:54:42 c2n: POST /update received
+2024/05/25 23:54:42 c2n: running "systemd-run --wait --pipe --collect /usr/local/bin/tailscale update --yes"
+2024/05/25 23:54:42 c2n: update command failed: exit status 1, output: [0;1;31mSystem has not been booted with systemd as init system (PID 1). Can't operate.[0m
+[0;1;31mFailed to create bus connection: Host is down[0m
+2024/05/25 23:54:43 RAW-STDERR: {"logtail": {"client_time": "2024-05-25T23:54:42.031152168Z","proc_id": 2789931316,"proc_seq": 363}, "text": "c2n: update command failed: exit status 1, output: [0;1;31mSystem has not been booted with systemd as init system (PID 1). Can't operate.[0m\n[0;1;31mFailed to create bus connection: Host is down[0m\n"}
+2024/05/25 23:58:58 magicsock: adding connection to derp-16 for [MJ9oj]
+2024/05/25 23:58:58 magicsock: 2 active derp conns: derp-1=cr1h9m0s,wr1h3m0s derp-16=cr0s,wr0s
+2024/05/25 23:58:58 derphttp.Client.Recv: connecting to derp-16 (mia)
+2024/05/25 23:58:58 magicsock: derp-16 connected; connGen=1
+2024/05/25 23:58:58 Accept: TCP{100.65.4.46:52943 > 100.107.209.29:25565} 52 tcp ok
+2024/05/25 23:58:58 Accept: TCP{100.107.209.29:25565 > 100.65.4.46:52943} 40 ok out
+2024/05/25 23:58:59 magicsock: endpoints changed: 20.41.19.203:1024 (stun), 172.16.5.4:52454 (local), 172.17.0.1:52454 (local)
+2024/05/25 23:58:59 Accept: TCP{100.65.4.46:52943 > 100.107.209.29:25565} 52 tcp ok
+2024/05/25 23:59:09 Accept: TCP{100.65.4.46:52954 > 100.107.209.29:25565} 52 tcp ok
+2024/05/25 23:59:22 magicsock: disco: node [MJ9oj] d:98c629bc4d51aa10 now using 138.122.7.132:25494 mtu=1360 tx=ca5e49ec3323
+2024/05/26 00:00:13 magicsock: closing connection to derp-16 (idle), age 1m15s
+2024/05/26 00:00:13 magicsock: 1 active derp conns: derp-1=cr1h10m0s,wr1h4m0s
+2024/05/26 00:17:32 c2n: GET /update received
+2024/05/26 00:17:32 c2n: POST /update received
+2024/05/26 00:17:32 c2n: running "systemd-run --wait --pipe --collect /usr/local/bin/tailscale update --yes"
+2024/05/26 00:17:32 c2n: update command failed: exit status 1, output: [0;1;31mSystem has not been booted with systemd as init system (PID 1). Can't operate.[0m
+[0;1;31mFailed to create bus connection: Host is down[0m
+2024/05/26 00:17:34 RAW-STDERR: {"logtail": {"client_time": "2024-05-26T00:17:32.456384629Z","proc_id": 2789931316,"proc_seq": 395}, "text": "c2n: update command failed: exit status 1, output: [0;1;31mSystem has not been booted with systemd as init system (PID 1). Can't operate.[0m\n[0;1;31mFailed to create bus connection: Host is down[0m\n"}
+2024/05/26 00:22:30 magicsock: adding connection to derp-16 for [MJ9oj]
+2024/05/26 00:22:30 magicsock: 2 active derp conns: derp-1=cr1h33m0s,wr1h26m0s derp-16=cr0s,wr0s
+2024/05/26 00:22:30 derphttp.Client.Recv: connecting to derp-16 (mia)
+2024/05/26 00:22:30 magicsock: derp-16 connected; connGen=1
+2024/05/26 00:22:30 Accept: TCP{100.65.4.46:53031 > 100.107.209.29:25565} 52 tcp ok
+2024/05/26 00:22:30 Accept: TCP{100.107.209.29:25565 > 100.65.4.46:53031} 40 ok out
+2024/05/26 00:22:30 magicsock: disco: node [MJ9oj] d:98c629bc4d51aa10 now using 138.122.7.132:41641 mtu=1360 tx=77440a290bc4
+2024/05/26 00:22:30 Accept: TCP{100.65.4.46:53031 > 100.107.209.29:25565} 52 tcp ok
+2024/05/26 00:23:45 magicsock: closing connection to derp-16 (idle), age 1m15s
+2024/05/26 00:23:45 magicsock: 1 active derp conns: derp-1=cr1h34m0s,wr1h28m0s
+2024/05/26 00:26:58 wgengine: idle peer [bBL+N] now active, reconfiguring WireGuard
+2024/05/26 00:26:58 wgengine: Reconfig: configuring userspace WireGuard config (with 2/3 peers)
+2024/05/26 00:26:58 Accept: TCP{100.95.252.16:51161 > 100.107.209.29:25565} 52 tcp ok
+2024/05/26 00:26:58 Accept: TCP{100.107.209.29:25565 > 100.95.252.16:51161} 40 ok out
+2024/05/26 00:26:58 Accept: TCP{100.95.252.16:51161 > 100.107.209.29:25565} 52 tcp ok
+2024/05/26 00:27:11 Accept: TCP{100.95.252.16:51171 > 100.107.209.29:25565} 52 tcp ok
+2024/05/26 00:27:15 magicsock: disco: node [bBL+N] d:2dd053aaeb7b3a25 now using 190.103.29.253:45525 mtu=1360 tx=6d7cbe5c4202
+2024/05/26 00:28:33 Accept: TCP{100.95.252.16:51190 > 100.107.209.29:25565} 52 tcp ok
+2024/05/26 00:28:33 wgengine: Reconfig: configuring userspace WireGuard config (with 1/3 peers)
+2024/05/26 00:28:33 Accept: TCP{100.107.209.29:25565 > 100.95.252.16:51190} 52 ok out
+2024/05/26 00:28:33 magicsock: adding connection to derp-16 for [bBL+N]
+2024/05/26 00:28:33 magicsock: 2 active derp conns: derp-1=cr1h39m0s,wr1m0s derp-16=cr0s,wr0s
+2024/05/26 00:28:33 derphttp.Client.Recv: connecting to derp-16 (mia)
+2024/05/26 00:28:33 magicsock: derp-16 connected; connGen=1
+2024/05/26 00:28:33 Accept: TCP{100.95.252.16:51190 > 100.107.209.29:25565} 40 tcp non-syn
+2024/05/26 00:28:43 Accept: TCP{100.95.252.16:51202 > 100.107.209.29:25565} 52 tcp ok
+2024/05/26 00:29:06 Accept: TCP{100.95.252.16:51219 > 100.107.209.29:25565} 52 tcp ok
+2024/05/26 00:29:06 Accept: TCP{100.107.209.29:25565 > 100.95.252.16:51219} 52 ok out
+2024/05/26 00:29:08 wgengine: idle peer [MJ9oj] now active, reconfiguring WireGuard
+2024/05/26 00:29:08 wgengine: Reconfig: configuring userspace WireGuard config (with 2/3 peers)
+2024/05/26 00:29:25 Accept: TCP{100.65.4.46:53079 > 100.107.209.29:25565} 52 tcp ok
+2024/05/26 00:29:25 Accept: TCP{100.107.209.29:25565 > 100.65.4.46:53079} 52 ok out
+2024/05/26 00:29:35 Accept: TCP{100.65.4.46:53093 > 100.107.209.29:25565} 52 tcp ok
+2024/05/26 00:29:44 Accept: TCP{100.65.4.46:53114 > 100.107.209.29:25565} 52 tcp ok
+2024/05/26 00:29:54 Accept: TCP{100.65.4.46:53128 > 100.107.209.29:25565} 52 tcp ok
+2024/05/26 00:30:03 Accept: TCP{100.65.4.46:53156 > 100.107.209.29:25565} 40 tcp non-syn
+2024/05/26 00:30:20 Accept: TCP{100.65.4.46:53183 > 100.107.209.29:25565} 52 tcp ok
+2024/05/26 00:30:29 Accept: TCP{100.65.4.46:53199 > 100.107.209.29:25565} 52 tcp ok
+2024/05/26 00:30:34 Accept: TCP{100.107.209.29:25565 > 100.95.252.16:51225} 40 ok out
+2024/05/26 00:30:48 Accept: TCP{100.65.4.46:53214 > 100.107.209.29:25565} 52 tcp ok
+2024/05/26 00:31:00 Accept: TCP{100.65.4.46:53214 > 100.107.209.29:25565} 52 tcp non-syn
+2024/05/26 00:31:03 Accept: TCP{100.107.209.29:25565 > 100.65.4.46:53214} 40 ok out
+2024/05/26 00:31:13 Accept: TCP{100.107.209.29:25565 > 100.65.4.46:53214} 52 ok out
+2024/05/26 00:31:23 Accept: TCP{100.65.4.46:53214 > 100.107.209.29:25565} 40 tcp non-syn
+2024/05/26 00:31:33 Accept: TCP{100.65.4.46:53214 > 100.107.209.29:25565} 40 tcp non-syn
+2024/05/26 00:31:43 Accept: TCP{100.65.4.46:53214 > 100.107.209.29:25565} 40 tcp non-syn
+2024/05/26 00:31:53 Accept: TCP{100.65.4.46:53214 > 100.107.209.29:25565} 52 tcp non-syn
+2024/05/26 00:32:03 Accept: TCP{100.65.4.46:53214 > 100.107.209.29:25565} 68 tcp non-syn
+2024/05/26 00:32:13 Accept: TCP{100.107.209.29:25565 > 100.65.4.46:53214} 1280 ok out
+2024/05/26 00:32:23 Accept: TCP{100.65.4.46:53214 > 100.107.209.29:25565} 76 tcp non-syn
+2024/05/26 00:32:31 c2n: GET /update received
+2024/05/26 00:32:31 c2n: POST /update received
+2024/05/26 00:32:31 c2n: running "systemd-run --wait --pipe --collect /usr/local/bin/tailscale update --yes"
+2024/05/26 00:32:31 c2n: update command failed: exit status 1, output: [0;1;31mSystem has not been booted with systemd as init system (PID 1). Can't operate.[0m
+[0;1;31mFailed to create bus connection: Host is down[0m
+2024/05/26 00:32:33 RAW-STDERR: {"logtail": {"client_time": "2024-05-26T00:32:31.481822913Z","proc_id": 2789931316,"proc_seq": 518}, "text": "c2n: update command failed: exit status 1, output: [0;1;31mSystem has not been booted with systemd as init system (PID 1). Can't operate.[0m\n[0;1;31mFailed to create bus connection: Host is down[0m\n"}
+2024/05/26 00:32:34 Accept: TCP{100.95.252.16:51264 > 100.107.209.29:25565} 52 tcp ok
+2024/05/26 00:32:47 Accept: TCP{100.65.4.46:53232 > 100.107.209.29:25565} 52 tcp ok
+2024/05/26 00:32:54 Accept: TCP{100.95.252.16:51264 > 100.107.209.29:25565} 52 tcp non-syn
+2024/05/26 00:33:03 Accept: TCP{100.107.209.29:25565 > 100.95.252.16:51264} 40 ok out
+2024/05/26 00:33:19 Accept: TCP{100.95.252.16:51264 > 100.107.209.29:25565} 54 tcp non-syn
+2024/05/26 00:34:10 Accept: TCP{100.95.252.16:51278 > 100.107.209.29:25565} 52 tcp ok
+2024/05/26 00:34:10 Accept: TCP{100.107.209.29:25565 > 100.95.252.16:51278} 52 ok out
+2024/05/26 00:34:10 Accept: TCP{100.95.252.16:51278 > 100.107.209.29:25565} 40 tcp non-syn
+2024/05/26 00:34:22 Accept: TCP{100.95.252.16:51283 > 100.107.209.29:25565} 52 tcp ok
+2024/05/26 00:34:36 Accept: TCP{100.107.209.29:25565 > 100.95.252.16:51283} 40 ok out
+2024/05/26 00:34:42 Accept: TCP{100.95.252.16:51283 > 100.107.209.29:25565} 52 tcp non-syn
