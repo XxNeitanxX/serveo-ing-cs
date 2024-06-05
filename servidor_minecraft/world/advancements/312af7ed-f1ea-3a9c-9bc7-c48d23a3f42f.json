@@ -1718,6 +1718,12 @@
     },
     "done": true
   },
+  "alexsmobs:recipes/combat/emu_leggings": {
+    "criteria": {
+      "has_items": "2024-06-05 02:10:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/bowl": {
     "criteria": {
       "has_brown_mushroom": "2024-06-03 17:50:49 +0000"
@@ -2075,6 +2081,12 @@
   "another_furniture:recipes/another_furniture/warped_shelf": {
     "criteria": {
       "has_planks": "2024-06-04 19:26:27 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:recipes/misc/banner_pattern_australia_1": {
+    "criteria": {
+      "has_items": "2024-06-05 02:10:56 +0000"
     },
     "done": true
   },
@@ -3341,6 +3353,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2024-06-05 02:09:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cobbled_deepslate_wall": {
     "criteria": {
       "has_cobbled_deepslate": "2024-06-02 18:03:01 +0000"
@@ -3747,6 +3765,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2024-06-05 02:04:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/golden_hoe": {
     "criteria": {
       "has_gold_ingot": "2024-06-02 18:43:10 +0000"
@@ -3882,6 +3906,12 @@
   "alexsmobs:recipes/tools/falconry_hood": {
     "criteria": {
       "has_items": "2024-06-05 00:31:16 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/kill_if_dragon": {
+    "criteria": {
+      "killed_lightning_dragon": "2024-06-05 02:09:50 +0000"
     },
     "done": true
   },
