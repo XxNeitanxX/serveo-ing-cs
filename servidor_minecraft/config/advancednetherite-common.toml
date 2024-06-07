@@ -33,14 +33,14 @@
 
 		#Configure properties related to Netherite-Diamond armor here
 		[common.armor_perks.netherite_diamond_armor]
-			#If true, Phantoms behave neutral towards players wearing Netherite-Diamond armor. False by default.
-			diamondPhantomPassiveArmor = false
+			#If true, Phantoms behave neutral towards players wearing Netherite-Diamond armor. True by default.
+			diamondPhantomPassiveArmor = true
 			#If true, Piglins behave neutral towards players wearing Netherite-Diamond armor. True by default.
 			diamondPiglinPassiveArmor = true
 			#If true, Endermen behave neutral towards players wearing Netherite-Diamond armor. True by default.
 			diamondEndermanPassiveArmor = true
 
-	#Configure properties related to additional drop perks here. Drop chances can be modified using a datapack.
+	#Configure properties related to additional drop perks here. Drop chances can be modified in the SERVER config.
 	[common.additional_drops]
 		#If true, enables additional crop drops for hoes. True by default.
 		enableAdditionalCropDrops = true
