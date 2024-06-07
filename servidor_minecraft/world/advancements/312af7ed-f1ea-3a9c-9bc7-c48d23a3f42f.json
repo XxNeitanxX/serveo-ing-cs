@@ -281,6 +281,12 @@
     },
     "done": true
   },
+  "comforts:sleeping_bag_light_blue_from_white": {
+    "criteria": {
+      "has_sleeping_bag": "2024-06-06 20:37:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2024-06-02 18:03:01 +0000"
@@ -401,6 +407,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2024-06-06 20:49:40 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_leggings": {
     "criteria": {
       "has_diamond": "2024-06-03 18:47:57 +0000"
@@ -470,6 +482,12 @@
   "minecraft:recipes/decorations/light_blue_carpet_from_white_carpet": {
     "criteria": {
       "has_white_carpet": "2024-06-02 18:30:23 +0000"
+    },
+    "done": true
+  },
+  "indreb:recipes/crushing/flowers/cornflower_blue_dye": {
+    "criteria": {
+      "item": "2024-06-06 20:48:43 +0000"
     },
     "done": true
   },
@@ -755,15 +773,15 @@
     },
     "done": true
   },
-  "indreb:recipes/indreb/item/reactor/component_heat_vent": {
-    "criteria": {
-      "iron_bars": "2024-06-06 00:31:32 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/red_nether_brick_wall_from_red_nether_bricks_stonecutting": {
     "criteria": {
       "has_red_nether_bricks": "2024-06-05 23:55:27 +0000"
+    },
+    "done": true
+  },
+  "indreb:recipes/indreb/item/reactor/component_heat_vent": {
+    "criteria": {
+      "iron_bars": "2024-06-06 00:31:32 +0000"
     },
     "done": true
   },
@@ -791,9 +809,21 @@
     },
     "done": true
   },
+  "comforts:sleeping_bag_purple_from_white": {
+    "criteria": {
+      "has_sleeping_bag": "2024-06-06 20:37:17 +0000"
+    },
+    "done": true
+  },
   "indreb:recipes/compressing/block/diamond_diamond_block": {
     "criteria": {
       "item": "2024-06-03 18:47:57 +0000"
+    },
+    "done": true
+  },
+  "indreb:recipes/indreb/wood/item/rubber_planks_rubber_stairs": {
+    "criteria": {
+      "item": "2024-06-06 20:48:42 +0000"
     },
     "done": true
   },
@@ -809,9 +839,21 @@
     },
     "done": true
   },
+  "indreb:recipes/extracting/rubber_sapling_rubber": {
+    "criteria": {
+      "item": "2024-06-06 20:58:58 +0000"
+    },
+    "done": true
+  },
   "alexsmobs:alexsmobs/banana": {
     "criteria": {
       "banana": "2024-06-02 14:56:11 +0000"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_orange_from_white": {
+    "criteria": {
+      "has_sleeping_bag": "2024-06-06 20:37:17 +0000"
     },
     "done": true
   },
@@ -905,6 +947,12 @@
     },
     "done": true
   },
+  "indreb:recipes/indreb/block/tin_block": {
+    "criteria": {
+      "item": "2024-06-06 20:36:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dark_oak_trapdoor": {
     "criteria": {
       "has_planks": "2024-06-02 22:25:10 +0000"
@@ -914,6 +962,12 @@
   "ecologics:recipes/ecologics/pot": {
     "criteria": {
       "has_terracotta": "2024-06-04 19:05:52 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/kill_sea_serpent": {
+    "criteria": {
+      "killed_fire_dragon": "2024-06-06 15:17:29 +0000"
     },
     "done": true
   },
@@ -983,6 +1037,12 @@
     },
     "done": true
   },
+  "comforts:sleeping_bag_magenta_from_white": {
+    "criteria": {
+      "has_sleeping_bag": "2024-06-06 20:37:17 +0000"
+    },
+    "done": true
+  },
   "indreb:recipes/canning/cooked_mutton": {
     "criteria": {
       "cooked_mutton": "2024-06-02 06:24:31 +0000"
@@ -1016,6 +1076,13 @@
   "minecraft:recipes/misc/book": {
     "criteria": {
       "has_paper": "2024-06-02 15:26:00 +0000"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_gray_from_white": {
+    "criteria": {
+      "has_the_recipe": "2024-06-06 20:37:17 +0000",
+      "has_sleeping_bag": "2024-06-06 20:37:17 +0000"
     },
     "done": true
   },
@@ -1136,6 +1203,12 @@
   "minecraft:recipes/building_blocks/light_gray_stained_glass": {
     "criteria": {
       "has_glass": "2024-06-02 05:52:48 +0000"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_yellow_from_white": {
+    "criteria": {
+      "has_sleeping_bag": "2024-06-06 20:37:17 +0000"
     },
     "done": true
   },
@@ -1377,9 +1450,21 @@
     },
     "done": true
   },
+  "comforts:sleeping_bag_lime_from_white": {
+    "criteria": {
+      "has_sleeping_bag": "2024-06-06 20:37:17 +0000"
+    },
+    "done": true
+  },
   "indreb:recipes/indreb/smelting/tin_ingot": {
     "criteria": {
       "item": "2024-06-05 00:53:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/furnace_minecart": {
+    "criteria": {
+      "has_minecart": "2024-06-06 20:49:40 +0000"
     },
     "done": true
   },
@@ -1398,6 +1483,12 @@
   "minecraft:nether/root": {
     "criteria": {
       "entered_nether": "2024-06-02 14:36:11 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/bestiary": {
+    "criteria": {
+      "bestiary": "2024-06-06 21:05:05 +0000"
     },
     "done": true
   },
@@ -1428,6 +1519,12 @@
   "minecraft:recipes/misc/iron_nugget": {
     "criteria": {
       "has_iron_ingot": "2024-06-02 05:38:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/hopper_minecart": {
+    "criteria": {
+      "has_minecart": "2024-06-06 20:49:40 +0000"
     },
     "done": true
   },
@@ -1755,6 +1852,12 @@
     },
     "done": true
   },
+  "indreb:recipes/indreb/wood/rubber_planks_rubber_slab": {
+    "criteria": {
+      "item": "2024-06-06 20:48:42 +0000"
+    },
+    "done": true
+  },
   "another_furniture:recipes/another_furniture/white_curtain": {
     "criteria": {
       "has_wool": "2024-06-02 05:12:56 +0000"
@@ -2050,6 +2153,12 @@
     },
     "done": true
   },
+  "indreb:recipes/indreb/block/rubber_planks": {
+    "criteria": {
+      "item": "2024-06-06 20:48:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/enter_the_nether": {
     "criteria": {
       "entered_nether": "2024-06-02 14:36:11 +0000"
@@ -2071,6 +2180,12 @@
   "minecraft:recipes/decorations/green_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2024-06-02 05:28:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/whos_the_pillager_now": {
+    "criteria": {
+      "kill_pillager": "2024-06-06 23:43:58 +0000"
     },
     "done": true
   },
@@ -2101,6 +2216,12 @@
   "minecraft:recipes/redstone/birch_door": {
     "criteria": {
       "has_planks": "2024-06-02 05:12:56 +0000"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_light_gray_from_white": {
+    "criteria": {
+      "has_sleeping_bag": "2024-06-06 20:37:17 +0000"
     },
     "done": true
   },
@@ -2464,6 +2585,12 @@
     },
     "done": true
   },
+  "comforts:sleeping_bag_red_from_white": {
+    "criteria": {
+      "has_sleeping_bag": "2024-06-06 20:37:17 +0000"
+    },
+    "done": true
+  },
   "indreb:recipes/indreb/item/foam_powder": {
     "criteria": {
       "sand": "2024-06-02 05:34:10 +0000"
@@ -2596,6 +2723,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2024-06-06 18:40:34 +0000"
+    },
+    "done": true
+  },
   "iceandfire:iceandfire/kill_cyclops": {
     "criteria": {
       "killed_fire_dragon": "2024-06-02 22:36:41 +0000"
@@ -2677,6 +2810,12 @@
   "minecraft:recipes/misc/quartz": {
     "criteria": {
       "has_nether_quartz_ore": "2024-06-03 14:27:33 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/dragonbone_tool": {
+    "criteria": {
+      "tool": "2024-06-06 15:10:08 +0000"
     },
     "done": true
   },
@@ -3558,6 +3697,12 @@
     },
     "done": true
   },
+  "comforts:sleeping_bag_green_from_white": {
+    "criteria": {
+      "has_sleeping_bag": "2024-06-06 20:37:17 +0000"
+    },
+    "done": true
+  },
   "another_furniture:recipes/another_furniture/birch_bench": {
     "criteria": {
       "has_slab": "2024-06-02 05:28:36 +0000"
@@ -3618,6 +3763,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2024-06-06 20:48:43 +0000"
+    },
+    "done": true
+  },
   "indreb:recipes/indreb/item/upgrades/energy_storage_upgrade": {
     "criteria": {
       "planks": "2024-06-02 15:43:16 +0000"
@@ -3651,6 +3802,12 @@
   "minecraft:recipes/decorations/blackstone_wall_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2024-06-03 14:51:07 +0000"
+    },
+    "done": true
+  },
+  "indreb:recipes/indreb/hammer/tin_plate": {
+    "criteria": {
+      "tin_ingot": "2024-06-06 20:36:42 +0000"
     },
     "done": true
   },
@@ -3801,6 +3958,12 @@
   "minecraft:recipes/building_blocks/black_concrete_powder": {
     "criteria": {
       "has_sand": "2024-06-02 05:34:10 +0000"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_brown_from_white": {
+    "criteria": {
+      "has_sleeping_bag": "2024-06-06 20:37:17 +0000"
     },
     "done": true
   },
@@ -3963,6 +4126,12 @@
   "minecraft:recipes/building_blocks/blue_terracotta": {
     "criteria": {
       "has_terracotta": "2024-06-04 19:05:51 +0000"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/walnut_planks": {
+    "criteria": {
+      "has_log": "2024-06-06 20:48:41 +0000"
     },
     "done": true
   },
@@ -4130,6 +4299,12 @@
     },
     "done": true
   },
+  "indreb:recipes/compressing/block/tin_tin_block": {
+    "criteria": {
+      "item": "2024-06-06 20:36:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/plant_seed": {
     "criteria": {
       "wheat": "2024-06-02 05:16:07 +0000"
@@ -4157,6 +4332,18 @@
   "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2024-06-02 05:12:56 +0000"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_pink_from_white": {
+    "criteria": {
+      "has_sleeping_bag": "2024-06-06 20:37:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2024-06-06 20:48:39 +0000"
     },
     "done": true
   },
@@ -4196,6 +4383,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2024-06-06 20:49:40 +0000"
+    },
+    "done": true
+  },
   "indreb:recipes/crushing/items/raw_iron": {
     "criteria": {
       "item": "2024-06-02 05:35:45 +0000"
@@ -4211,6 +4404,13 @@
   "minecraft:recipes/decorations/sandstone_wall": {
     "criteria": {
       "has_sandstone": "2024-06-05 00:06:06 +0000"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_cyan_from_white": {
+    "criteria": {
+      "has_the_recipe": "2024-06-06 20:37:17 +0000",
+      "has_sleeping_bag": "2024-06-06 20:37:17 +0000"
     },
     "done": true
   },
@@ -4436,15 +4636,15 @@
     },
     "done": true
   },
-  "iceandfire:iceandfire/dragon_egg": {
-    "criteria": {
-      "egg": "2024-06-06 04:37:53 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/quartz_stairs_from_quartz_block_stonecutting": {
     "criteria": {
       "has_quartz_block": "2024-06-06 00:15:46 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/dragon_egg": {
+    "criteria": {
+      "egg": "2024-06-06 04:37:53 +0000"
     },
     "done": true
   },
@@ -4719,6 +4919,12 @@
     },
     "done": true
   },
+  "ecologics:recipes/ecologics/walnut_wood": {
+    "criteria": {
+      "has_log": "2024-06-06 20:48:41 +0000"
+    },
+    "done": true
+  },
   "indreb:recipes/crushing/bio/pumpkin": {
     "criteria": {
       "cactus": "2024-06-02 06:05:39 +0000"
@@ -4977,6 +5183,12 @@
     },
     "done": true
   },
+  "comforts:sleeping_bag_black_from_white": {
+    "criteria": {
+      "has_sleeping_bag": "2024-06-06 20:37:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_axe": {
     "criteria": {
       "has_diamond": "2024-06-03 18:47:57 +0000"
@@ -5052,6 +5264,12 @@
   "indreb:recipes/indreb/transformer/lv_transformer": {
     "criteria": {
       "oak_planks": "2024-06-02 15:43:16 +0000"
+    },
+    "done": true
+  },
+  "indreb:recipes/extracting/rubber_planks_oak_planks": {
+    "criteria": {
+      "item": "2024-06-06 20:48:42 +0000"
     },
     "done": true
   },
@@ -5145,6 +5363,12 @@
     },
     "done": true
   },
+  "comforts:sleeping_bag_blue_from_white": {
+    "criteria": {
+      "has_sleeping_bag": "2024-06-06 20:37:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_white_dye": "2024-06-03 15:53:39 +0000"
@@ -5166,6 +5390,12 @@
   "another_furniture:recipes/another_furniture/red_stool": {
     "criteria": {
       "has_wool": "2024-06-02 18:30:11 +0000"
+    },
+    "done": true
+  },
+  "indreb:recipes/indreb/item/fluid_cell": {
+    "criteria": {
+      "item": "2024-06-06 20:36:42 +0000"
     },
     "done": true
   },
@@ -5532,6 +5762,12 @@
   "minecraft:recipes/decorations/gray_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2024-06-04 04:44:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/rail": {
+    "criteria": {
+      "has_minecart": "2024-06-06 20:49:40 +0000"
     },
     "done": true
   },
