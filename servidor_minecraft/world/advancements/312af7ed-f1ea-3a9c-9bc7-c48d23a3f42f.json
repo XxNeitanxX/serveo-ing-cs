@@ -5,6 +5,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/acacia_button": {
+    "criteria": {
+      "has_planks": "2024-07-02 04:04:04 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_sword": {
     "criteria": {
       "has_iron_ingot": "2024-07-02 01:20:37 +0000"
@@ -377,6 +383,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/acacia_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-07-02 04:04:04 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diorite_stairs_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2024-07-02 01:03:25 +0000"
@@ -590,6 +602,12 @@
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
       "has_lapis_lazuli": "2024-07-02 02:34:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/acacia_sign": {
+    "criteria": {
+      "has_planks": "2024-07-02 04:04:04 +0000"
     },
     "done": true
   },
@@ -818,6 +836,12 @@
   "minecraft:recipes/redstone/oak_fence_gate": {
     "criteria": {
       "has_planks": "2024-07-02 00:42:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_slab": {
+    "criteria": {
+      "has_planks": "2024-07-02 04:04:04 +0000"
     },
     "done": true
   },
@@ -1118,6 +1142,12 @@
   "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2024-07-02 03:32:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-07-02 04:04:04 +0000"
     },
     "done": true
   },
@@ -1490,6 +1520,12 @@
   "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2024-07-02 01:12:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/acacia_fence": {
+    "criteria": {
+      "has_planks": "2024-07-02 04:04:04 +0000"
     },
     "done": true
   },
@@ -1930,6 +1966,7 @@
       "minecraft:meadow": "2024-07-02 00:41:47 +0000",
       "minecraft:lush_caves": "2024-07-02 02:31:14 +0000",
       "minecraft:dripstone_caves": "2024-07-02 01:39:38 +0000",
+      "minecraft:bamboo_jungle": "2024-07-02 04:07:21 +0000",
       "minecraft:plains": "2024-07-02 00:44:59 +0000",
       "minecraft:deep_lukewarm_ocean": "2024-07-02 02:49:31 +0000"
     },
@@ -2016,6 +2053,12 @@
   "minecraft:recipes/building_blocks/andesite_slab": {
     "criteria": {
       "has_andesite": "2024-07-02 00:57:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_stairs": {
+    "criteria": {
+      "has_planks": "2024-07-02 04:04:04 +0000"
     },
     "done": true
   },
@@ -2265,6 +2308,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/acacia_door": {
+    "criteria": {
+      "has_planks": "2024-07-02 04:04:04 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_hoe": {
     "criteria": {
       "has_cobblestone": "2024-07-02 00:56:45 +0000"
@@ -2448,6 +2497,12 @@
   "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2024-07-02 00:57:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-07-02 04:04:04 +0000"
     },
     "done": true
   },
