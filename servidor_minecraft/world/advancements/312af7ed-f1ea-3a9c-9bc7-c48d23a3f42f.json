@@ -281,6 +281,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2024-07-02 02:34:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/orange_concrete_powder": {
     "criteria": {
       "has_gravel": "2024-07-02 00:48:48 +0000"
@@ -431,6 +437,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2024-07-02 02:41:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
     "criteria": {
       "has_raw_iron": "2024-07-02 00:56:59 +0000"
@@ -458,6 +470,12 @@
   "minecraft:adventure/kill_mob_near_sculk_catalyst": {
     "criteria": {
       "kill_mob_near_sculk_catalyst": "2024-07-02 02:22:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis_lazuli": "2024-07-02 02:34:11 +0000"
     },
     "done": true
   },
@@ -1202,8 +1220,11 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2024-07-02 02:22:30 +0000",
+      "minecraft:enderman": "2024-07-02 02:38:13 +0000",
       "minecraft:stray": "2024-07-02 01:16:02 +0000",
-      "minecraft:zombie": "2024-07-02 00:57:55 +0000"
+      "minecraft:spider": "2024-07-02 02:40:52 +0000",
+      "minecraft:zombie": "2024-07-02 00:57:55 +0000",
+      "minecraft:creeper": "2024-07-02 02:39:52 +0000"
     },
     "done": false
   },
@@ -1264,6 +1285,12 @@
   "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
     "criteria": {
       "has_raw_iron": "2024-07-02 00:56:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/moss_carpet": {
+    "criteria": {
+      "has_moss_block": "2024-07-02 02:34:11 +0000"
     },
     "done": true
   },
@@ -1470,6 +1497,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/axolotl_in_a_bucket": {
+    "criteria": {
+      "axolotl_bucket": "2024-07-02 02:32:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2024-07-02 00:56:45 +0000"
@@ -1581,7 +1614,8 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "mushroom_stew": "2024-07-02 00:58:43 +0000",
-      "sweet_berries": "2024-07-02 02:24:28 +0000"
+      "sweet_berries": "2024-07-02 02:24:28 +0000",
+      "tropical_fish": "2024-07-02 02:33:27 +0000"
     },
     "done": false
   },
@@ -1648,6 +1682,12 @@
   "minecraft:recipes/tools/stone_hoe": {
     "criteria": {
       "has_cobblestone": "2024-07-02 00:56:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_glazed_terracotta": {
+    "criteria": {
+      "has_green_terracotta": "2024-07-02 02:34:11 +0000"
     },
     "done": true
   },
@@ -1765,6 +1805,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2024-07-02 02:34:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2024-07-02 00:57:01 +0000"
@@ -1822,6 +1868,12 @@
   "minecraft:recipes/building_blocks/polished_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2024-07-02 02:01:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2024-07-02 02:34:11 +0000"
     },
     "done": true
   },
