@@ -455,6 +455,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+    "criteria": {
+      "kill_mob_near_sculk_catalyst": "2024-07-02 02:22:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lantern": {
     "criteria": {
       "has_iron_ingot": "2024-07-02 01:20:37 +0000"
@@ -1195,6 +1201,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2024-07-02 02:22:30 +0000",
       "minecraft:stray": "2024-07-02 01:16:02 +0000",
       "minecraft:zombie": "2024-07-02 00:57:55 +0000"
     },
@@ -1433,6 +1440,7 @@
       "minecraft:windswept_forest": "2024-07-02 00:56:08 +0000",
       "minecraft:grove": "2024-07-02 01:10:01 +0000",
       "minecraft:meadow": "2024-07-02 00:41:47 +0000",
+      "minecraft:lush_caves": "2024-07-02 02:31:14 +0000",
       "minecraft:dripstone_caves": "2024-07-02 01:39:38 +0000",
       "minecraft:plains": "2024-07-02 00:44:59 +0000"
     },
@@ -1572,7 +1580,8 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "mushroom_stew": "2024-07-02 00:58:43 +0000"
+      "mushroom_stew": "2024-07-02 00:58:43 +0000",
+      "sweet_berries": "2024-07-02 02:24:28 +0000"
     },
     "done": false
   },
