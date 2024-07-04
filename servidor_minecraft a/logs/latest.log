@@ -1,0 +1,65 @@
+[00:07:57] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:07:58] [Worker-Main-2/ERROR]: Couldn't parse element loot_tables:gamerz_riot:12-variety - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:scute
+[00:07:58] [Worker-Main-2/ERROR]: Couldn't parse element loot_tables:gamerz_riot:15-variety - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:scute
+[00:07:58] [Worker-Main-2/ERROR]: Couldn't parse element loot_tables:gamerz_riot:09-variety - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:scute
+[00:07:58] [Worker-Main-2/ERROR]: Couldn't parse element loot_tables:gamerz_riot:06 - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:scute
+[00:07:58] [Worker-Main-2/ERROR]: Couldn't parse element loot_tables:gamerz_riot:14-variety - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:scute
+[00:07:58] [Worker-Main-2/ERROR]: Couldn't parse element loot_tables:gamerz_riot:06-variety - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:scute
+[00:07:58] [Worker-Main-2/ERROR]: Couldn't parse element loot_tables:gamerz_riot:08-variety - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:scute
+[00:07:58] [Worker-Main-2/ERROR]: Couldn't parse element loot_tables:gamerz_riot:rarechest - Not a json array: {"function":"minecraft:enchant_randomly","enchantments":["minecraft:bane_of_arthropods","minecraft:fire_aspect","minecraft:fortune","minecraft:knockback","minecraft:looting","minecraft:sharpness","minecraft:soul_speed","minecraft:smite","minecraft:sweeping"]}; Unknown registry key in ResourceKey[minecraft:root / minecraft:enchantment]: minecraft:sweeping; Not a json array: {"function":"minecraft:set_nbt","tag":"{\"Potion\":\"minecraft:harming\"}"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Not a json array: {"function":"minecraft:set_nbt","tag":"{\"Potion\":\"minecraft:long_weakness\"}"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Not a json array: {"function":"minecraft:set_nbt","tag":"{\"Potion\":\"minecraft:long_poison\"}"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Not a json array: {"function":"minecraft:set_nbt","tag":"{\"Potion\":\"minecraft:long_slowness\"}"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Not a json array: {"function":"minecraft:set_nbt","tag":"{\"Potion\":\"minecraft:long_water_breathing\"}"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Not a json array: {"function":"minecraft:set_nbt","tag":"{\"Potion\":\"minecraft:strong_turtle_master\"}"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Not a json array: {"function":"minecraft:set_nbt","tag":"{\"Potion\":\"minecraft:strong_swiftness\"}"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Not a json array: {"function":"minecraft:set_nbt","tag":"{\"Potion\":\"minecraft:long_strength\"}"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Not a json array: {"function":"minecraft:set_nbt","tag":"{\"Potion\":\"minecraft:long_slow_falling\"}"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Not a json array: {"function":"minecraft:set_nbt","tag":"{\"Potion\":\"minecraft:long_regeneration\"}"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Not a json array: {"function":"minecraft:set_nbt","tag":"{\"Potion\":\"minecraft:long_night_vision\"}"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Not a json array: {"function":"minecraft:set_nbt","tag":"{\"Potion\":\"minecraft:luck\"}"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Not a json array: {"function":"minecraft:set_nbt","tag":"{\"Potion\":\"minecraft:long_leaping\"}"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Not a json array: {"function":"minecraft:set_nbt","tag":"{\"Potion\":\"minecraft:long_invisibility\"}"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Not a json array: {"function":"minecraft:set_nbt","tag":"{\"Potion\":\"minecraft:strong_healing\"}"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Not a json array: {"function":"minecraft:set_nbt","tag":"{\"Potion\":\"minecraft:long_fire_resistance\"}"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt
+[00:07:58] [Worker-Main-2/ERROR]: Couldn't parse element loot_tables:gamerz_riot:10-variety - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:scute
+[00:07:58] [Worker-Main-2/ERROR]: Couldn't parse element loot_tables:gamerz_riot:11-variety - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:scute
+[00:07:58] [Worker-Main-2/ERROR]: Couldn't parse element loot_tables:gamerz_riot:13-variety - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:scute
+[00:07:58] [Worker-Main-2/ERROR]: Couldn't parse element loot_tables:gamerz_riot:07-variety - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:scute
+[00:07:59] [ServerMain/ERROR]: Parsing error loading recipe minecraft:calcite
+com.google.gson.JsonParseException: Not a JSON object: "minecraft:calcite"
+	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:275) ~[datafixerupper-7.0.14.jar:?]
+	at cza.a(SourceFile:62) ~[server-1.20.6.jar:?]
+	at cza.a(SourceFile:35) ~[server-1.20.6.jar:?]
+	at auu.a(SourceFile:13) ~[server-1.20.6.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at auv.a(SourceFile:69) ~[server-1.20.6.jar:?]
+	at ac.a(SourceFile:993) ~[server-1.20.6.jar:?]
+	at ac.c(SourceFile:981) ~[server-1.20.6.jar:?]
+	at net.minecraft.server.Main.main(SourceFile:182) ~[server-1.20.6.jar:?]
+	at net.minecraft.bundler.Main.lambda$run$0(Main.java:54) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[00:07:59] [ServerMain/ERROR]: Parsing error loading recipe minecraft:tuff
+com.google.gson.JsonParseException: Not a JSON object: "minecraft:tuff"
+	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:275) ~[datafixerupper-7.0.14.jar:?]
+	at cza.a(SourceFile:62) ~[server-1.20.6.jar:?]
+	at cza.a(SourceFile:35) ~[server-1.20.6.jar:?]
+	at auu.a(SourceFile:13) ~[server-1.20.6.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at auv.a(SourceFile:69) ~[server-1.20.6.jar:?]
+	at ac.a(SourceFile:993) ~[server-1.20.6.jar:?]
+	at ac.c(SourceFile:981) ~[server-1.20.6.jar:?]
+	at net.minecraft.server.Main.main(SourceFile:182) ~[server-1.20.6.jar:?]
+	at net.minecraft.bundler.Main.lambda$run$0(Main.java:54) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[00:07:59] [ServerMain/INFO]: Loaded 1175 recipes
+[00:07:59] [ServerMain/ERROR]: Parsing error loading custom advancement gamerz_riot:world_boarder: No key id in MapLike[{"item":"minecraft:barrier"}]
+[00:07:59] [ServerMain/INFO]: Loaded 1279 advancements
+[00:07:59] [Server thread/INFO]: Starting minecraft server version 1.20.6
+[00:07:59] [Server thread/INFO]: Loading properties
+[00:07:59] [Server thread/INFO]: Default game type: SURVIVAL
+[00:07:59] [Server thread/INFO]: Generating keypair
+[00:08:00] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:08:00] [Server thread/INFO]: Using epoll channel type
+[00:08:00] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:08:00] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:08:00] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:08:00] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:08:00] [Server thread/INFO]: Preparing level "world"
+[00:08:00] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:08:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:08:00] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:08:01] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[00:08:01] [Server thread/INFO]: Time elapsed: 1218 ms
+[00:08:01] [Server thread/INFO]: Done (1.342s)! For help, type "help"
+[00:08:14] [Server thread/INFO]: XxNeitanxX[/127.85.60.195:37605] logged in with entity id 98 at (2.6281614757525436, 61.0, -11.213561754997546)
+[00:08:14] [Server thread/INFO]: XxNeitanxX joined the game
+[00:13:06] [Server thread/INFO]: XxNeitanxX lost connection: Disconnected
+[00:13:06] [Server thread/INFO]: XxNeitanxX left the game
