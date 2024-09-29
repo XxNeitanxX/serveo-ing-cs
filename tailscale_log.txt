@@ -1,174 +1,152 @@
-2024/06/08 15:50:51 logtail started
-2024/06/08 15:50:51 Program starting: v1.62.0-tdf4d4ebd4-gd0454003c, Go 1.22.1: []string{"./tailscaled"}
-2024/06/08 15:50:51 LogID: a292c144a3feb33bdc6c51268a87bb24d267a4d2f36dea81ffa036e0fe0e314a
-2024/06/08 15:50:51 logpolicy: using system state directory "/var/lib/tailscale"
-2024/06/08 15:50:51 wgengine.NewUserspaceEngine(tun "tailscale0") ...
-2024/06/08 15:50:51 dns: resolvedIsActuallyResolver error: resolv.conf doesn't point to systemd-resolved; points to [127.0.0.53 168.63.129.16]
-2024/06/08 15:50:51 dns: [rc=resolved resolved=not-in-use ret=direct]
-2024/06/08 15:50:51 dns: using "direct" mode
-2024/06/08 15:50:51 dns: using *dns.directManager
-2024/06/08 15:50:51 link state: interfaces.State{defaultRoute=eth0 ifs={docker0:[172.17.0.1/16] eth0:[172.16.5.4/24 llu6]} v4=true v6=false}
-2024/06/08 15:50:51 onPortUpdate(port=37055, network=udp6)
-2024/06/08 15:50:51 router: using firewall mode pref 
-2024/06/08 15:50:51 router: default choosing iptables
-2024/06/08 15:50:51 router: ipv6 unavailable due to missing filter table: running [/usr/sbin/ip6tables -t filter -S --wait]: exit status 3: ip6tables v1.8.4 (legacy): can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+2024/09/29 22:58:50 logtail started
+2024/09/29 22:58:50 Program starting: v1.68.1-tf02ad8397-g8f9cb4763, Go 1.22.4: []string{"./tailscaled"}
+2024/09/29 22:58:50 LogID: ea5a3105b3581e49a2aaf20044c2b33259c756fa2e41914b8a1d1ffc95a23395
+2024/09/29 22:58:50 logpolicy: using system state directory "/var/lib/tailscale"
+2024/09/29 22:58:50 dns: resolvedIsActuallyResolver error: resolv.conf doesn't point to systemd-resolved; points to [127.0.0.53 168.63.129.16]
+2024/09/29 22:58:50 dns: [rc=resolved resolved=not-in-use ret=direct]
+2024/09/29 22:58:50 dns: using "direct" mode
+2024/09/29 22:58:50 dns: using *dns.directManager
+2024/09/29 22:58:50 wgengine.NewUserspaceEngine(tun "tailscale0") ...
+2024/09/29 22:58:50 dns: resolvedIsActuallyResolver error: resolv.conf doesn't point to systemd-resolved; points to [127.0.0.53 168.63.129.16]
+2024/09/29 22:58:50 dns: [rc=resolved resolved=not-in-use ret=direct]
+2024/09/29 22:58:50 dns: using "direct" mode
+2024/09/29 22:58:50 dns: using *dns.directManager
+2024/09/29 22:58:50 link state: interfaces.State{defaultRoute=eth0 ifs={docker0:[172.17.0.1/16] eth0:[10.0.0.223/16 llu6]} v4=true v6=false}
+2024/09/29 22:58:51 onPortUpdate(port=49021, network=udp6)
+2024/09/29 22:58:51 router: using firewall mode pref 
+2024/09/29 22:58:51 router: default choosing iptables
+2024/09/29 22:58:51 router: ip6tables filtering is not supported on this host: running [/usr/sbin/ip6tables -t filter -S --wait]: exit status 3: ip6tables v1.8.4 (legacy): can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
 Perhaps ip6tables or your kernel needs to be upgraded.
-2024/06/08 15:50:51 router: v6filter = false, v6nat = false
-2024/06/08 15:50:51 onPortUpdate(port=45221, network=udp4)
-2024/06/08 15:50:51 magicsock: disco key = d:a41ca43442e1d148
-2024/06/08 15:50:51 Creating WireGuard device...
-2024/06/08 15:50:51 Bringing WireGuard device up...
-2024/06/08 15:50:51 Bringing router up...
-2024/06/08 15:50:51 external route: up
-2024/06/08 15:50:51 Clearing router settings...
-2024/06/08 15:50:51 Starting network monitor...
-2024/06/08 15:50:51 Engine created.
-2024/06/08 15:50:51 pm: using backend prefs for "profile-9240": Prefs{ra=false dns=true want=true routes=[] nf=on update=on Persist{lm=, o=, n=[D/pDL] u="gamecrafress@gmail.com"}}
-2024/06/08 15:50:51 logpolicy: using system state directory "/var/lib/tailscale"
-2024/06/08 15:50:51 got LocalBackend in 30ms
-2024/06/08 15:50:51 Start
-2024/06/08 15:50:51 Backend: logs: be:a292c144a3feb33bdc6c51268a87bb24d267a4d2f36dea81ffa036e0fe0e314a fe:
-2024/06/08 15:50:51 control: client.Login(false, 0)
-2024/06/08 15:50:51 control: doLogin(regen=false, hasUrl=false)
-2024/06/08 15:50:51 health("overall"): error: not in map poll
-2024/06/08 15:50:51 control: control server key from https://controlplane.tailscale.com: ts2021=[fSeS+], legacy=[nlFWp]
-2024/06/08 15:50:51 control: RegisterReq: onode= node=[D/pDL] fup=false nks=false
-2024/06/08 15:50:52 control: RegisterReq: got response; nodeKeyExpired=false, machineAuthorized=true; authURL=false
-2024/06/08 15:50:52 control: netmap: got new dial plan from control
-2024/06/08 15:50:52 active login: gamecrafress@gmail.com
-2024/06/08 15:50:52 Switching ipn state NoState -> Starting (WantRunning=true, nm=true)
-2024/06/08 15:50:52 magicsock: SetPrivateKey called (init)
-2024/06/08 15:50:52 wgengine: Reconfig: configuring userspace WireGuard config (with 0/3 peers)
-2024/06/08 15:50:52 monitor: gateway and self IP changed: gw=172.16.5.1 self=172.16.5.4
-2024/06/08 15:50:52 wgengine: Reconfig: configuring router
-2024/06/08 15:50:52 wgengine: Reconfig: configuring DNS
-2024/06/08 15:50:52 dns: Set: {DefaultResolvers:[] Routes:{tail9d2f16.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail9d2f16.ts.net.] Hosts:4}
-2024/06/08 15:50:52 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:4 LocalDomains:[tail9d2f16.ts.net.]+65arpa, cloud="azure"}
-2024/06/08 15:50:52 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail9d2f16.ts.net. cqs3k1otw5je5d5cj2akpksmsb.cx.internal.cloudapp.net.] }
-2024/06/08 15:50:52 rename of "/etc/resolv.conf" to "/etc/resolv.pre-tailscale-backup.conf" failed (rename /etc/resolv.conf /etc/resolv.pre-tailscale-backup.conf: device or resource busy), falling back to copy+delete
-2024/06/08 15:50:52 restarted resolved after 1ms
-2024/06/08 15:50:52 peerapi: serving on http://100.83.83.122:57166
-2024/06/08 15:50:52 peerapi: failed to do peerAPI listen, harmless (netstack available) but error was: listen tcp6 [fd7a:115c:a1e0::4c01:537a]:0: bind: cannot assign requested address
-2024/06/08 15:50:52 peerapi: serving on http://[fd7a:115c:a1e0::4c01:537a]:1
-2024/06/08 15:50:52 magicsock: home is now derp-1 (nyc)
-2024/06/08 15:50:52 magicsock: adding connection to derp-1 for home-keep-alive
-2024/06/08 15:50:52 magicsock: 1 active derp conns: derp-1=cr0s,wr0s
-2024/06/08 15:50:52 Switching ipn state Starting -> Running (WantRunning=true, nm=true)
-2024/06/08 15:50:52 derphttp.Client.Connect: connecting to derp-1 (nyc)
-2024/06/08 15:50:52 magicsock: endpoints changed: 172.200.120.135:1025 (stun), 172.16.5.4:45221 (local), 172.17.0.1:45221 (local)
-2024/06/08 15:50:52 control: NetInfo: NetInfo{varies=false hairpin=false ipv6=false ipv6os=true udp=true icmpv4=false derp=#1 portmap= link="" firewallmode="ipt-default"}
-2024/06/08 15:50:52 magicsock: derp-1 connected; connGen=1
-2024/06/08 15:50:52 health("overall"): ok
-2024/06/08 15:51:15 wgengine: idle peer [5mBk6] now active, reconfiguring WireGuard
-2024/06/08 15:51:15 wgengine: Reconfig: configuring userspace WireGuard config (with 1/3 peers)
-2024/06/08 15:51:15 Accept: TCP{100.88.60.24:54538 > 100.83.83.122:25565} 52 tcp ok
-2024/06/08 15:51:15 magicsock: disco: node [5mBk6] d:713b0f3d554995d3 now using 138.122.7.132:41641 mtu=1360 tx=d04fcd1cafe9
-2024/06/08 15:51:15 Accept: TCP{100.83.83.122:25565 > 100.88.60.24:54538} 40 ok out
-2024/06/08 15:51:15 Accept: TCP{100.88.60.24:54538 > 100.83.83.122:25565} 52 tcp ok
-2024/06/08 15:51:20 wgengine: idle peer [scckw] now active, reconfiguring WireGuard
-2024/06/08 15:51:20 wgengine: Reconfig: configuring userspace WireGuard config (with 2/3 peers)
-2024/06/08 15:51:26 Accept: TCP{100.88.60.24:54553 > 100.83.83.122:25565} 52 tcp ok
-2024/06/08 15:51:37 Accept: TCP{100.71.105.26:56326 > 100.83.83.122:25565} 52 tcp ok
-2024/06/08 15:51:49 Accept: TCP{100.88.60.24:54575 > 100.83.83.122:25565} 52 tcp ok
-2024/06/08 15:51:55 Accept: TCP{100.71.105.26:56328 > 100.83.83.122:25565} 52 tcp ok
-2024/06/08 15:52:08 Accept: TCP{100.71.105.26:56330 > 100.83.83.122:25565} 52 tcp ok
-2024/06/08 15:52:19 Accept: TCP{100.71.105.26:56331 > 100.83.83.122:25565} 52 tcp ok
-2024/06/08 15:52:46 Accept: TCP{100.71.105.26:56337 > 100.83.83.122:25565} 52 tcp ok
-2024/06/08 15:52:46 Accept: TCP{100.83.83.122:25565 > 100.71.105.26:56337} 52 ok out
-2024/06/08 15:52:47 Accept: TCP{100.71.105.26:56337 > 100.83.83.122:25565} 40 tcp non-syn
-2024/06/08 15:53:10 Accept: TCP{100.71.105.26:56342 > 100.83.83.122:25565} 52 tcp ok
-2024/06/08 15:53:10 Accept: TCP{100.83.83.122:25565 > 100.71.105.26:56342} 52 ok out
-2024/06/08 15:53:17 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 52 tcp ok
-2024/06/08 15:53:19 wgengine: idle peer [sh0nq] now active, reconfiguring WireGuard
-2024/06/08 15:53:19 wgengine: Reconfig: configuring userspace WireGuard config (with 3/3 peers)
-2024/06/08 15:53:27 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 40 tcp non-syn
-2024/06/08 15:53:36 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 40 tcp non-syn
-2024/06/08 15:53:46 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 40 tcp non-syn
-2024/06/08 15:53:57 Accept: TCP{100.83.83.122:25565 > 100.88.60.24:54694} 40 ok out
-2024/06/08 15:54:10 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 40 tcp non-syn
-2024/06/08 15:54:17 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 76 tcp non-syn
-2024/06/08 15:54:27 Accept: TCP{100.83.83.122:25565 > 100.88.60.24:54694} 61 ok out
-2024/06/08 15:54:37 Accept: TCP{100.83.83.122:25565 > 100.88.60.24:54694} 40 ok out
-2024/06/08 15:54:46 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 40 tcp non-syn
-2024/06/08 15:54:56 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 40 tcp non-syn
-2024/06/08 15:55:06 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 40 tcp non-syn
-2024/06/08 15:55:17 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 76 tcp non-syn
-2024/06/08 15:55:26 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 52 tcp non-syn
-2024/06/08 15:55:36 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 40 tcp non-syn
-2024/06/08 15:55:47 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 76 tcp non-syn
-2024/06/08 15:55:56 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 40 tcp non-syn
-2024/06/08 15:56:06 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 40 tcp non-syn
-2024/06/08 15:56:17 Accept: TCP{100.83.83.122:25565 > 100.88.60.24:54694} 58 ok out
-2024/06/08 15:56:26 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 40 tcp non-syn
-2024/06/08 15:56:36 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 40 tcp non-syn
-2024/06/08 15:56:46 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 40 tcp non-syn
-2024/06/08 15:56:56 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 44 tcp non-syn
-2024/06/08 15:57:06 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 40 tcp non-syn
-2024/06/08 15:57:17 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 76 tcp non-syn
-2024/06/08 15:57:26 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 40 tcp non-syn
-2024/06/08 15:57:36 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 40 tcp non-syn
-2024/06/08 15:57:47 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 40 tcp non-syn
-2024/06/08 15:57:57 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 40 tcp non-syn
-2024/06/08 15:58:01 magicsock: adding connection to derp-9 for [scckw]
-2024/06/08 15:58:01 magicsock: 2 active derp conns: derp-1=cr7m0s,wr2m0s derp-9=cr0s,wr0s
-2024/06/08 15:58:01 derphttp.Client.Send: connecting to derp-9 (dfw)
-2024/06/08 15:58:01 magicsock: derp-9 connected; connGen=1
-2024/06/08 15:58:07 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 80 tcp non-syn
-2024/06/08 15:58:17 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 40 tcp non-syn
-2024/06/08 15:58:26 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 68 tcp non-syn
-2024/06/08 15:58:36 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 40 tcp non-syn
-2024/06/08 15:58:46 Accept: TCP{100.71.105.26:56591 > 100.83.83.122:25565} 40 tcp non-syn
-2024/06/08 15:58:56 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 40 tcp non-syn
-2024/06/08 15:59:06 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 76 tcp non-syn
-2024/06/08 15:59:16 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 52 tcp non-syn
-2024/06/08 15:59:26 Accept: TCP{100.71.105.26:56591 > 100.83.83.122:25565} 40 tcp non-syn
-2024/06/08 15:59:36 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 44 tcp non-syn
-2024/06/08 15:59:46 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 76 tcp non-syn
-2024/06/08 15:59:56 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 47 tcp non-syn
-2024/06/08 16:00:06 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 40 tcp non-syn
-2024/06/08 16:00:16 Accept: TCP{100.71.105.26:56591 > 100.83.83.122:25565} 40 tcp non-syn
-2024/06/08 16:00:26 Accept: TCP{100.71.105.26:56591 > 100.83.83.122:25565} 40 tcp non-syn
-2024/06/08 16:00:36 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 40 tcp non-syn
-2024/06/08 16:00:46 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 52 tcp non-syn
-2024/06/08 16:00:56 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 77 tcp non-syn
-2024/06/08 16:01:06 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 76 tcp non-syn
-2024/06/08 16:01:16 Accept: TCP{100.71.105.26:56591 > 100.83.83.122:25565} 76 tcp non-syn
-2024/06/08 16:01:26 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 40 tcp non-syn
-2024/06/08 16:01:36 Accept: TCP{100.71.105.26:56591 > 100.83.83.122:25565} 71 tcp non-syn
-2024/06/08 16:01:46 Accept: TCP{100.71.105.26:56591 > 100.83.83.122:25565} 80 tcp non-syn
-2024/06/08 16:01:56 Accept: TCP{100.83.83.122:25565 > 100.88.60.24:54694} 225 ok out
-2024/06/08 16:02:07 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 40 tcp non-syn
-2024/06/08 16:02:16 Accept: TCP{100.88.60.24:54694 > 100.83.83.122:25565} 40 tcp non-syn
-2024/06/08 16:02:27 Accept: TCP{100.83.83.122:25565 > 100.71.105.26:56591} 58 ok out
-2024/06/08 16:02:37 Accept: TCP{100.83.83.122:25565 > 100.71.105.26:56591} 60 ok out
-2024/06/08 16:02:46 Accept: TCP{100.71.105.26:56591 > 100.83.83.122:25565} 40 tcp non-syn
-2024/06/08 16:02:57 Accept: TCP{100.83.83.122:25565 > 100.71.105.26:56591} 61 ok out
-2024/06/08 16:03:07 Accept: TCP{100.83.83.122:25565 > 100.71.105.26:56591} 368 ok out
-2024/06/08 16:03:16 magicsock: adding connection to derp-16 for [5mBk6]
-2024/06/08 16:03:16 magicsock: 3 active derp conns: derp-1=cr12m0s,wr7m0s derp-9=cr5m0s,wr8ms derp-16=cr0s,wr0s
-2024/06/08 16:03:16 derphttp.Client.Send: connecting to derp-16 (mia)
-2024/06/08 16:03:16 magicsock: derp-16 connected; connGen=1
-2024/06/08 16:03:16 Accept: TCP{100.71.105.26:56591 > 100.83.83.122:25565} 52 tcp non-syn
-2024/06/08 16:04:16 magicsock: closing connection to derp-16 (idle), age 1m0s
-2024/06/08 16:04:16 magicsock: 2 active derp conns: derp-1=cr13m0s,wr8m0s derp-9=cr6m0s,wr12s
-2024/06/08 16:05:09 Received error: PollNetMap: unexpected EOF
-2024/06/08 16:05:10 control: netmap: got new dial plan from control
-2024/06/08 16:05:10 wgengine: Reconfig: configuring userspace WireGuard config (with 2/3 peers)
-2024/06/08 16:05:16 magicsock: closing connection to derp-9 (idle), age 7m15s
-2024/06/08 16:05:16 magicsock: 1 active derp conns: derp-1=cr14m0s,wr9m0s
-2024/06/08 16:11:46 c2n: GET /update received
-2024/06/08 16:11:46 c2n: POST /update received
-2024/06/08 16:11:46 c2n: running "systemd-run --wait --pipe --collect /usr/local/bin/tailscale update --yes"
-2024/06/08 16:11:46 c2n: update command failed: exit status 1, output: [0;1;31mSystem has not been booted with systemd as init system (PID 1). Can't operate.[0m
-[0;1;31mFailed to create bus connection: Host is down[0m
-2024/06/08 16:11:48 RAW-STDERR: ***
-2024/06/08 16:11:48 RAW-STDERR: *** Lines prefixed with RAW-STDERR below bypassed logtail and probably come from a previous run of the program
-2024/06/08 16:11:48 RAW-STDERR: ***
-2024/06/08 16:11:48 RAW-STDERR:
-2024/06/08 16:11:48 RAW-STDERR: {"logtail": {"client_time": "2024-06-08T16:11:46.317148721Z","proc_id": 2643620886,"proc_seq": 367}, "text": "c2n: update command failed: exit status 1, output: [0;1;31mSystem has not been booted with systemd as init system (PID 1). Can't operate.[0m\n[0;1;31mFailed to create bus connection: Host is down[0m\n"}
-2024/06/08 16:22:02 c2n: GET /update received
-2024/06/08 16:22:02 c2n: POST /update received
-2024/06/08 16:22:02 c2n: running "systemd-run --wait --pipe --collect /usr/local/bin/tailscale update --yes"
-2024/06/08 16:22:02 c2n: update command failed: exit status 1, output: [0;1;31mSystem has not been booted with systemd as init system (PID 1). Can't operate.[0m
-[0;1;31mFailed to create bus connection: Host is down[0m
-2024/06/08 16:22:04 RAW-STDERR: {"logtail": {"client_time": "2024-06-08T16:22:02.230956248Z","proc_id": 2643620886,"proc_seq": 372}, "text": "c2n: update command failed: exit status 1, output: [0;1;31mSystem has not been booted with systemd as init system (PID 1). Can't operate.[0m\n[0;1;31mFailed to create bus connection: Host is down[0m\n"}
+2024/09/29 22:58:51 router: netfilter running in iptables mode v6 = true, v6filter = false, v6nat = false
+2024/09/29 22:58:51 onPortUpdate(port=35765, network=udp4)
+2024/09/29 22:58:51 magicsock: disco key = d:6726d6ffd7c5921b
+2024/09/29 22:58:51 Creating WireGuard device...
+2024/09/29 22:58:51 Bringing WireGuard device up...
+2024/09/29 22:58:51 Bringing router up...
+2024/09/29 22:58:51 Clearing router settings...
+2024/09/29 22:58:51 Starting network monitor...
+2024/09/29 22:58:51 Engine created.
+2024/09/29 22:58:51 external route: up
+2024/09/29 22:58:51 monitor: [unexpected] network state changed, but stringification didn't: interfaces.State{defaultRoute=eth0 ifs={docker0:[172.17.0.1/16] eth0:[10.0.0.223/16 llu6]} v4=true v6=false}
+2024/09/29 22:58:51 monitor: [unexpected] old: {"InterfaceIPs":{"docker0":["172.17.0.1/16"],"eth0":["10.0.0.223/16","fe80::20d:3aff:fe03:85ab/64"],"lo":["127.0.0.1/8","::1/128"]},"Interface":{"docker0":{"Index":3,"MTU":1500,"Name":"docker0","HardwareAddr":"AkKwV5Ha","Flags":19,"AltAddrs":null,"Desc":""},"eth0":{"Index":2,"MTU":1500,"Name":"eth0","HardwareAddr":"AA06A4Wr","Flags":51,"AltAddrs":null,"Desc":""},"lo":{"Index":1,"MTU":65536,"Name":"lo","HardwareAddr":null,"Flags":37,"AltAddrs":null,"Desc":""}},"HaveV6":false,"HaveV4":true,"IsExpensive":false,"DefaultRouteInterface":"eth0","HTTPProxy":"","PAC":""}
+2024/09/29 22:58:51 monitor: [unexpected] new: {"InterfaceIPs":{"docker0":["172.17.0.1/16"],"eth0":["10.0.0.223/16","fe80::20d:3aff:fe03:85ab/64"],"lo":["127.0.0.1/8","::1/128"],"tailscale0":["fe80::6425:2264:5a48:ed8f/64"]},"Interface":{"docker0":{"Index":3,"MTU":1500,"Name":"docker0","HardwareAddr":"AkKwV5Ha","Flags":19,"AltAddrs":null,"Desc":""},"eth0":{"Index":2,"MTU":1500,"Name":"eth0","HardwareAddr":"AA06A4Wr","Flags":51,"AltAddrs":null,"Desc":""},"lo":{"Index":1,"MTU":65536,"Name":"lo","HardwareAddr":null,"Flags":37,"AltAddrs":null,"Desc":""},"tailscale0":{"Index":4,"MTU":1280,"Name":"tailscale0","HardwareAddr":null,"Flags":57,"AltAddrs":null,"Desc":""}},"HaveV6":false,"HaveV4":true,"IsExpensive":false,"DefaultRouteInterface":"eth0","HTTPProxy":"","PAC":""}
+2024/09/29 22:58:51 LinkChange: major, rebinding. New state: interfaces.State{defaultRoute=eth0 ifs={docker0:[172.17.0.1/16] eth0:[10.0.0.223/16 llu6]} v4=true v6=false}
+2024/09/29 22:58:51 onPortUpdate(port=49021, network=udp6)
+2024/09/29 22:58:51 onPortUpdate(port=35765, network=udp4)
+2024/09/29 22:58:51 pm: using backend prefs for "profile-9634": Prefs{ra=false dns=true want=true routes=[] statefulFiltering=false nf=on update=check Persist{lm=, o=, n=[uon2A] u="XxNeitanxX@github"}}
+2024/09/29 22:58:51 Rebind; defIf="eth0", ips=[10.0.0.223/16 fe80::20d:3aff:fe03:85ab/64]
+2024/09/29 22:58:51 magicsock: 0 active derp conns
+2024/09/29 22:58:51 logpolicy: using system state directory "/var/lib/tailscale"
+2024/09/29 22:58:51 monitor: gateway and self IP changed: gw=10.0.0.1 self=10.0.0.223
+2024/09/29 22:58:51 got LocalBackend in 19ms
+2024/09/29 22:58:51 Start
+2024/09/29 22:58:52 timeout waiting for initial portlist
+2024/09/29 22:58:52 Backend: logs: be:ea5a3105b3581e49a2aaf20044c2b33259c756fa2e41914b8a1d1ffc95a23395 fe:
+2024/09/29 22:58:52 control: client.Login(0)
+2024/09/29 22:58:52 health("overall"): error: not in map poll
+2024/09/29 22:58:52 control: doLogin(regen=false, hasUrl=false)
+2024/09/29 22:58:52 control: control server key from https://controlplane.tailscale.com: ts2021=[fSeS+], legacy=[nlFWp]
+2024/09/29 22:58:52 control: RegisterReq: onode= node=[uon2A] fup=false nks=false
+2024/09/29 22:58:52 control: RegisterReq: got response; nodeKeyExpired=false, machineAuthorized=true; authURL=false
+2024/09/29 22:58:52 control: netmap: got new dial plan from control
+2024/09/29 22:58:52 active login: XxNeitanxX@github
+2024/09/29 22:58:52 Switching ipn state NoState -> Starting (WantRunning=true, nm=true)
+2024/09/29 22:58:52 magicsock: SetPrivateKey called (init)
+2024/09/29 22:58:52 wgengine: Reconfig: configuring userspace WireGuard config (with 0/2 peers)
+2024/09/29 22:58:52 wgengine: Reconfig: configuring router
+2024/09/29 22:58:52 wgengine: Reconfig: configuring DNS
+2024/09/29 22:58:52 dns: Set: {DefaultResolvers:[] Routes:{tailae4168.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tailae4168.ts.net.] Hosts:3}
+2024/09/29 22:58:52 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:3 LocalDomains:[tailae4168.ts.net.]+65arpa, cloud="azure"}
+2024/09/29 22:58:52 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tailae4168.ts.net. gbuypll1kt3upd1osau5klzz5b.cx.internal.cloudapp.net.] }
+2024/09/29 22:58:52 rename of "/etc/resolv.conf" to "/etc/resolv.pre-tailscale-backup.conf" failed (rename /etc/resolv.conf /etc/resolv.pre-tailscale-backup.conf: device or resource busy), falling back to copy+delete
+2024/09/29 22:58:52 restarted resolved after 1ms
+2024/09/29 22:58:52 peerapi: serving on http://100.114.58.27:62137
+2024/09/29 22:58:52 peerapi: serving on http://[fd7a:115c:a1e0::4a01:3a1b]:42160
+2024/09/29 22:58:53 magicsock: home is now derp-1 (nyc)
+2024/09/29 22:58:53 magicsock: adding connection to derp-1 for home-keep-alive
+2024/09/29 22:58:53 magicsock: 1 active derp conns: derp-1=cr0s,wr0s
+2024/09/29 22:58:53 control: NetInfo: NetInfo{varies=false hairpin= ipv6=false ipv6os=true udp=true icmpv4=false derp=#1 portmap= link="" firewallmode="ipt-default"}
+2024/09/29 22:58:53 derphttp.Client.Connect: connecting to derp-1 (nyc)
+2024/09/29 22:58:53 Switching ipn state Starting -> Running (WantRunning=true, nm=true)
+2024/09/29 22:58:53 magicsock: endpoints changed: 74.249.85.193:4104 (stun), 10.0.0.223:35765 (local), 172.17.0.1:35765 (local)
+2024/09/29 22:58:53 magicsock: derp-1 connected; connGen=1
+2024/09/29 22:58:53 health("overall"): ok
+2024/09/29 23:00:55 wgengine: idle peer [+r/I+] now active, reconfiguring WireGuard
+2024/09/29 23:00:55 wgengine: Reconfig: configuring userspace WireGuard config (with 1/2 peers)
+2024/09/29 23:00:55 magicsock: disco: node [+r/I+] d:b77966a31a433769 now using 138.122.7.132:41641 mtu=1360 tx=486f7fdc102f
+2024/09/29 23:00:55 Accept: TCP{100.77.92.11:62163 > 100.114.58.27:25565} 52 tcp ok
+2024/09/29 23:00:55 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 52 ok out
+2024/09/29 23:00:55 Accept: TCP{100.77.92.11:62163 > 100.114.58.27:25565} 40 tcp non-syn
+2024/09/29 23:01:00 wgengine: idle peer [N6tbj] now active, reconfiguring WireGuard
+2024/09/29 23:01:00 wgengine: Reconfig: configuring userspace WireGuard config (with 2/2 peers)
+2024/09/29 23:01:00 magicsock: disco: node [N6tbj] d:8b9c988842ec8667 now using 138.122.7.132:1024 mtu=1360 tx=01906b6c2c4d
+2024/09/29 23:01:05 Accept: TCP{100.77.92.11:62163 > 100.114.58.27:25565} 40 tcp non-syn
+2024/09/29 23:01:15 Accept: TCP{100.77.92.11:62163 > 100.114.58.27:25565} 40 tcp non-syn
+2024/09/29 23:01:25 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 192 ok out
+2024/09/29 23:01:35 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 299 ok out
+2024/09/29 23:01:45 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 468 ok out
+2024/09/29 23:01:55 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 321 ok out
+2024/09/29 23:02:05 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 199 ok out
+2024/09/29 23:02:15 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 434 ok out
+2024/09/29 23:02:25 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 155 ok out
+2024/09/29 23:02:35 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 143 ok out
+2024/09/29 23:02:45 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 430 ok out
+2024/09/29 23:02:55 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 210 ok out
+2024/09/29 23:03:05 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 197 ok out
+2024/09/29 23:03:15 Accept: TCP{100.115.0.86:55092 > 100.114.58.27:25565} 67 tcp non-syn
+2024/09/29 23:03:25 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 207 ok out
+2024/09/29 23:03:35 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 158 ok out
+2024/09/29 23:03:45 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 378 ok out
+2024/09/29 23:03:55 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 245 ok out
+2024/09/29 23:04:05 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 239 ok out
+2024/09/29 23:04:15 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 463 ok out
+2024/09/29 23:04:25 Accept: TCP{100.77.92.11:62163 > 100.114.58.27:25565} 40 tcp non-syn
+2024/09/29 23:04:35 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 130 ok out
+2024/09/29 23:04:45 Accept: TCP{100.77.92.11:62163 > 100.114.58.27:25565} 54 tcp non-syn
+2024/09/29 23:04:55 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 137 ok out
+2024/09/29 23:05:04 magicsock: adding connection to derp-16 for [+r/I+]
+2024/09/29 23:05:04 magicsock: 2 active derp conns: derp-1=cr6m0s,wr1m0s derp-16=cr0s,wr0s
+2024/09/29 23:05:04 derphttp.Client.Send: connecting to derp-16 (mia)
+2024/09/29 23:05:04 magicsock: derp-16 connected; connGen=1
+2024/09/29 23:05:05 Accept: TCP{100.77.92.11:62163 > 100.114.58.27:25565} 44 tcp non-syn
+2024/09/29 23:05:15 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 317 ok out
+2024/09/29 23:05:25 Accept: TCP{100.77.92.11:62163 > 100.114.58.27:25565} 52 tcp non-syn
+2024/09/29 23:05:35 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 309 ok out
+2024/09/29 23:05:45 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 326 ok out
+2024/09/29 23:05:55 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 219 ok out
+2024/09/29 23:06:04 magicsock: closing connection to derp-16 (idle), age 1m0s
+2024/09/29 23:06:04 magicsock: 1 active derp conns: derp-1=cr7m0s,wr2m0s
+2024/09/29 23:06:04 magicsock: adding connection to derp-16 for [+r/I+]
+2024/09/29 23:06:04 magicsock: 2 active derp conns: derp-1=cr7m0s,wr2m0s derp-16=cr0s,wr0s
+2024/09/29 23:06:04 derphttp.Client.Send: connecting to derp-16 (mia)
+2024/09/29 23:06:04 magicsock: derp-16 connected; connGen=1
+2024/09/29 23:06:05 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 148 ok out
+2024/09/29 23:06:15 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 337 ok out
+2024/09/29 23:06:25 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 328 ok out
+2024/09/29 23:06:35 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 174 ok out
+2024/09/29 23:06:45 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 253 ok out
+2024/09/29 23:06:55 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 250 ok out
+2024/09/29 23:07:04 magicsock: closing connection to derp-16 (idle), age 1m0s
+2024/09/29 23:07:04 magicsock: 1 active derp conns: derp-1=cr8m0s,wr3m0s
+2024/09/29 23:07:04 magicsock: adding connection to derp-16 for [+r/I+]
+2024/09/29 23:07:04 magicsock: 2 active derp conns: derp-1=cr8m0s,wr3m0s derp-16=cr0s,wr0s
+2024/09/29 23:07:04 derphttp.Client.Recv: connecting to derp-16 (mia)
+2024/09/29 23:07:04 magicsock: derp-16 connected; connGen=1
+2024/09/29 23:07:05 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 307 ok out
+2024/09/29 23:07:15 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 335 ok out
+2024/09/29 23:07:25 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 246 ok out
+2024/09/29 23:07:35 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 238 ok out
+2024/09/29 23:07:45 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 348 ok out
+2024/09/29 23:07:55 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 343 ok out
+2024/09/29 23:08:04 magicsock: closing connection to derp-16 (idle), age 1m0s
+2024/09/29 23:08:04 magicsock: 1 active derp conns: derp-1=cr9m0s,wr4m0s
+2024/09/29 23:08:04 magicsock: adding connection to derp-16 for [+r/I+]
+2024/09/29 23:08:04 magicsock: 2 active derp conns: derp-1=cr9m0s,wr4m0s derp-16=cr0s,wr0s
+2024/09/29 23:08:04 derphttp.Client.Send: connecting to derp-16 (mia)
+2024/09/29 23:08:04 magicsock: derp-16 connected; connGen=1
+2024/09/29 23:08:05 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 316 ok out
+2024/09/29 23:08:15 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 517 ok out
+2024/09/29 23:08:25 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 153 ok out
+2024/09/29 23:08:35 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 210 ok out
+2024/09/29 23:08:45 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 515 ok out
+2024/09/29 23:08:55 Accept: TCP{100.114.58.27:25565 > 100.77.92.11:62163} 161 ok out
