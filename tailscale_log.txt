@@ -3019,3 +3019,5 @@ Perhaps ip6tables or your kernel needs to be upgraded.
 2024/10/06 21:49:10 Accept: TCP{100.77.92.11:58709 > 100.81.89.71:25565} 68 tcp non-syn
 2024/10/06 21:49:20 Accept: TCP{100.81.89.71:25565 > 100.77.92.11:58709} 861 ok out
 2024/10/06 21:49:30 Accept: TCP{100.81.89.71:25565 > 100.77.92.11:58709} 776 ok out
+2024/10/06 21:51:21 magicsock: closing connection to derp-16 (idle), age 7h57m1s
+2024/10/06 21:51:21 magicsock: 1 active derp conns: derp-1=cr8h6m0s,wr7h57m0s
