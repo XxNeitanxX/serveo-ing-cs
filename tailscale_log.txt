@@ -880,3 +880,74 @@ Perhaps ip6tables or your kernel needs to be upgraded.
 2024/10/08 00:21:24 Accept: TCP{100.113.0.112:49367 > 100.81.89.71:25565} 76 tcp non-syn
 2024/10/08 00:21:34 Accept: TCP{100.113.0.112:49367 > 100.81.89.71:25565} 68 tcp non-syn
 2024/10/08 00:21:44 Accept: TCP{100.113.0.112:49367 > 100.81.89.71:25565} 68 tcp non-syn
+2024/10/08 00:21:54 Accept: TCP{100.81.89.71:25565 > 100.77.92.11:53941} 40 ok out
+2024/10/08 00:22:04 Accept: TCP{100.81.89.71:25565 > 100.113.0.112:49367} 243 ok out
+2024/10/08 00:22:14 Accept: TCP{100.113.0.112:49367 > 100.81.89.71:25565} 76 tcp non-syn
+2024/10/08 00:22:24 Accept: TCP{100.81.89.71:25565 > 100.113.0.112:49367} 206 ok out
+2024/10/08 00:22:34 Accept: TCP{100.77.92.11:53941 > 100.81.89.71:25565} 40 tcp non-syn
+2024/10/08 00:22:44 Accept: TCP{100.113.0.112:49367 > 100.81.89.71:25565} 68 tcp non-syn
+2024/10/08 00:22:54 Accept: TCP{100.77.92.11:53941 > 100.81.89.71:25565} 68 tcp non-syn
+2024/10/08 00:23:04 Accept: TCP{100.77.92.11:53941 > 100.81.89.71:25565} 40 tcp non-syn
+2024/10/08 00:23:14 Accept: TCP{100.77.92.11:53941 > 100.81.89.71:25565} 52 tcp non-syn
+2024/10/08 00:23:24 Accept: TCP{100.113.0.112:49367 > 100.81.89.71:25565} 45 tcp non-syn
+2024/10/08 00:23:34 Accept: TCP{100.77.92.11:53941 > 100.81.89.71:25565} 68 tcp non-syn
+2024/10/08 00:23:44 Accept: TCP{100.113.0.112:49367 > 100.81.89.71:25565} 68 tcp non-syn
+2024/10/08 00:23:54 Accept: TCP{100.113.0.112:49367 > 100.81.89.71:25565} 40 tcp non-syn
+2024/10/08 00:24:04 Accept: TCP{100.77.92.11:53941 > 100.81.89.71:25565} 68 tcp non-syn
+2024/10/08 00:24:14 Accept: TCP{100.77.92.11:53941 > 100.81.89.71:25565} 76 tcp non-syn
+2024/10/08 00:24:24 Accept: TCP{100.77.92.11:53941 > 100.81.89.71:25565} 52 tcp non-syn
+2024/10/08 00:24:34 Accept: TCP{100.77.92.11:53941 > 100.81.89.71:25565} 68 tcp non-syn
+2024/10/08 00:24:44 Accept: TCP{100.81.89.71:25565 > 100.113.0.112:49367} 423 ok out
+2024/10/08 00:24:54 Accept: TCP{100.77.92.11:53941 > 100.81.89.71:25565} 55 tcp non-syn
+2024/10/08 00:25:04 Accept: TCP{100.77.92.11:53941 > 100.81.89.71:25565} 40 tcp non-syn
+2024/10/08 00:25:14 Accept: TCP{100.77.92.11:53941 > 100.81.89.71:25565} 40 tcp non-syn
+2024/10/08 00:25:24 Accept: TCP{100.77.92.11:53941 > 100.81.89.71:25565} 68 tcp non-syn
+2024/10/08 00:25:34 Accept: TCP{100.77.92.11:53941 > 100.81.89.71:25565} 40 tcp non-syn
+2024/10/08 00:25:44 Accept: TCP{100.77.92.11:53941 > 100.81.89.71:25565} 68 tcp non-syn
+2024/10/08 00:25:54 Accept: TCP{100.77.92.11:53941 > 100.81.89.71:25565} 40 tcp non-syn
+2024/10/08 00:26:04 Accept: TCP{100.113.0.112:49367 > 100.81.89.71:25565} 76 tcp non-syn
+2024/10/08 00:26:14 Accept: TCP{100.113.0.112:49367 > 100.81.89.71:25565} 68 tcp non-syn
+2024/10/08 00:26:24 Accept: TCP{100.77.92.11:53941 > 100.81.89.71:25565} 68 tcp non-syn
+2024/10/08 00:26:34 Accept: TCP{100.113.0.112:49367 > 100.81.89.71:25565} 68 tcp non-syn
+2024/10/08 00:26:44 Accept: TCP{100.77.92.11:53941 > 100.81.89.71:25565} 40 tcp non-syn
+2024/10/08 00:26:54 Accept: TCP{100.113.0.112:49367 > 100.81.89.71:25565} 55 tcp non-syn
+2024/10/08 00:27:04 Accept: TCP{100.113.0.112:49367 > 100.81.89.71:25565} 68 tcp non-syn
+2024/10/08 00:27:14 Accept: TCP{100.113.0.112:49367 > 100.81.89.71:25565} 76 tcp non-syn
+2024/10/08 00:27:24 Accept: TCP{100.77.92.11:53941 > 100.81.89.71:25565} 68 tcp non-syn
+2024/10/08 00:27:34 Accept: TCP{100.77.92.11:53941 > 100.81.89.71:25565} 68 tcp non-syn
+2024/10/08 00:27:44 Accept: TCP{100.113.0.112:49367 > 100.81.89.71:25565} 76 tcp non-syn
+2024/10/08 00:27:54 Accept: TCP{100.113.0.112:49367 > 100.81.89.71:25565} 68 tcp non-syn
+2024/10/08 00:28:04 Accept: TCP{100.77.92.11:53941 > 100.81.89.71:25565} 76 tcp non-syn
+2024/10/08 00:28:14 Accept: TCP{100.113.0.112:49367 > 100.81.89.71:25565} 40 tcp non-syn
+2024/10/08 00:28:24 Accept: TCP{100.113.0.112:49367 > 100.81.89.71:25565} 68 tcp non-syn
+2024/10/08 00:28:34 Accept: TCP{100.113.0.112:49367 > 100.81.89.71:25565} 76 tcp non-syn
+2024/10/08 00:28:44 Accept: TCP{100.77.92.11:53941 > 100.81.89.71:25565} 68 tcp non-syn
+2024/10/08 00:28:54 Accept: TCP{100.81.89.71:25565 > 100.113.0.112:49367} 640 ok out
+2024/10/08 00:29:04 Accept: TCP{100.77.92.11:53941 > 100.81.89.71:25565} 52 tcp non-syn
+2024/10/08 00:29:14 Accept: TCP{100.113.0.112:49367 > 100.81.89.71:25565} 76 tcp non-syn
+2024/10/08 00:29:24 Accept: TCP{100.113.0.112:49367 > 100.81.89.71:25565} 68 tcp non-syn
+2024/10/08 00:29:34 Accept: TCP{100.113.0.112:49367 > 100.81.89.71:25565} 68 tcp non-syn
+2024/10/08 00:29:46 [unexpected] magicsock: derp-16 does not know about peer [/Ky8+], removing route
+2024/10/08 00:29:52 [unexpected] magicsock: derp-16 does not know about peer [/Ky8+], removing route
+2024/10/08 00:29:58 [unexpected] magicsock: derp-16 does not know about peer [/Ky8+], removing route
+2024/10/08 00:30:04 [unexpected] magicsock: derp-16 does not know about peer [/Ky8+], removing route
+2024/10/08 00:30:10 [unexpected] magicsock: derp-16 does not know about peer [/Ky8+], removing route
+2024/10/08 00:30:16 [unexpected] magicsock: derp-16 does not know about peer [/Ky8+], removing route
+2024/10/08 00:30:21 [unexpected] magicsock: derp-16 does not know about peer [/Ky8+], removing route
+2024/10/08 00:30:27 [unexpected] magicsock: derp-16 does not know about peer [/Ky8+], removing route
+2024/10/08 00:30:32 [unexpected] magicsock: derp-16 does not know about peer [/Ky8+], removing route
+2024/10/08 00:30:37 [unexpected] magicsock: derp-16 does not know about peer [/Ky8+], removing route
+2024/10/08 00:30:42 [unexpected] magicsock: derp-16 does not know about peer [/Ky8+], removing route
+2024/10/08 00:30:47 [unexpected] magicsock: derp-16 does not know about peer [/Ky8+], removing route
+2024/10/08 00:30:52 [unexpected] magicsock: derp-16 does not know about peer [/Ky8+], removing route
+2024/10/08 00:30:58 [unexpected] magicsock: derp-16 does not know about peer [/Ky8+], removing route
+2024/10/08 00:31:03 [unexpected] magicsock: derp-16 does not know about peer [/Ky8+], removing route
+2024/10/08 00:31:08 [unexpected] magicsock: derp-16 does not know about peer [/Ky8+], removing route
+2024/10/08 00:31:13 [unexpected] magicsock: derp-16 does not know about peer [/Ky8+], removing route
+2024/10/08 00:31:18 [unexpected] magicsock: derp-16 does not know about peer [/Ky8+], removing route
+2024/10/08 00:31:24 [unexpected] magicsock: derp-16 does not know about peer [/Ky8+], removing route
+2024/10/08 00:31:29 [unexpected] magicsock: derp-16 does not know about peer [/Ky8+], removing route
+2024/10/08 00:31:35 [unexpected] magicsock: derp-16 does not know about peer [/Ky8+], removing route
+2024/10/08 00:31:40 [unexpected] magicsock: derp-16 does not know about peer [/Ky8+], removing route
+2024/10/08 00:31:46 [unexpected] magicsock: derp-16 does not know about peer [/Ky8+], removing route
+2024/10/08 00:31:52 [unexpected] magicsock: derp-16 does not know about peer [/Ky8+], removing route
