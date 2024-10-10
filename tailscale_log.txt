@@ -731,3 +731,37 @@ Perhaps ip6tables or your kernel needs to be upgraded.
 2024/10/10 01:30:41 Accept: TCP{100.124.41.108:64849 > 100.81.89.71:25565} 40 tcp non-syn
 2024/10/10 01:30:51 Accept: TCP{100.124.41.108:64849 > 100.81.89.71:25565} 55 tcp non-syn
 2024/10/10 01:31:01 Accept: TCP{100.124.41.108:64849 > 100.81.89.71:25565} 44 tcp non-syn
+2024/10/10 01:31:37 magicsock: closing connection to derp-16 (idle), age 1m15s
+2024/10/10 01:31:37 magicsock: 1 active derp conns: derp-1=cr1h32m0s,wr1h17m0s
+2024/10/10 01:34:25 magicsock: adding connection to derp-16 for [+r/I+]
+2024/10/10 01:34:25 magicsock: 2 active derp conns: derp-1=cr1h34m0s,wr1h19m0s derp-16=cr0s,wr0s
+2024/10/10 01:34:25 derphttp.Client.Recv: connecting to derp-16 (mia)
+2024/10/10 01:34:25 magicsock: derp-16 connected; connGen=1
+2024/10/10 01:34:25 Accept: TCP{100.77.92.11:51110 > 100.81.89.71:25565} 52 tcp ok
+2024/10/10 01:34:25 Accept: TCP{100.81.89.71:25565 > 100.77.92.11:51110} 52 ok out
+2024/10/10 01:34:25 Accept: TCP{100.77.92.11:51110 > 100.81.89.71:25565} 40 tcp non-syn
+2024/10/10 01:35:40 magicsock: closing connection to derp-16 (idle), age 1m15s
+2024/10/10 01:35:40 magicsock: 1 active derp conns: derp-1=cr1h36m0s,wr1h21m0s
+2024/10/10 01:47:56 magicsock: adding connection to derp-16 for [T4EW4]
+2024/10/10 01:47:56 magicsock: 2 active derp conns: derp-1=cr1h48m0s,wr1h33m0s derp-16=cr0s,wr0s
+2024/10/10 01:47:56 derphttp.Client.Recv: connecting to derp-16 (mia)
+2024/10/10 01:47:57 Accept: TCP{100.124.41.108:50819 > 100.81.89.71:25565} 52 tcp ok
+2024/10/10 01:47:57 Accept: TCP{100.124.41.108:50824 > 100.81.89.71:25565} 52 tcp ok
+2024/10/10 01:47:57 wgengine: Reconfig: configuring userspace WireGuard config (with 1/4 peers)
+2024/10/10 01:47:57 Accept: TCP{100.81.89.71:25565 > 100.124.41.108:50819} 40 ok out
+2024/10/10 01:47:57 magicsock: derp-16 connected; connGen=1
+2024/10/10 01:48:23 Accept: TCP{100.124.41.108:50842 > 100.81.89.71:25565} 52 tcp ok
+2024/10/10 01:48:23 Accept: TCP{100.81.89.71:25565 > 100.124.41.108:50842} 40 ok out
+2024/10/10 01:49:01 Accept: TCP{100.124.41.108:50856 > 100.81.89.71:25565} 52 tcp ok
+2024/10/10 01:49:01 Accept: TCP{100.81.89.71:25565 > 100.124.41.108:50856} 40 ok out
+2024/10/10 01:49:02 Accept: TCP{100.124.41.108:50856 > 100.81.89.71:25565} 52 tcp ok
+2024/10/10 01:49:11 magicsock: closing connection to derp-16 (idle), age 1m15s
+2024/10/10 01:49:11 magicsock: 1 active derp conns: derp-1=cr1h49m0s,wr1h34m0s
+2024/10/10 01:49:42 Accept: TCP{100.124.41.108:50870 > 100.81.89.71:25565} 52 tcp ok
+2024/10/10 01:49:42 Accept: TCP{100.81.89.71:25565 > 100.124.41.108:50870} 40 ok out
+2024/10/10 01:49:43 Accept: TCP{100.124.41.108:50870 > 100.81.89.71:25565} 52 tcp ok
+2024/10/10 01:49:56 Accept: TCP{100.124.41.108:50877 > 100.81.89.71:25565} 52 tcp ok
+2024/10/10 01:50:18 Accept: TCP{100.124.41.108:50882 > 100.81.89.71:25565} 52 tcp ok
+2024/10/10 01:50:18 Accept: TCP{100.81.89.71:25565 > 100.124.41.108:50882} 40 ok out
+2024/10/10 01:50:22 Accept: TCP{100.124.41.108:50883 > 100.81.89.71:25565} 52 tcp ok
+2024/10/10 01:50:36 Accept: TCP{100.124.41.108:50887 > 100.81.89.71:25565} 52 tcp ok
