@@ -73,3 +73,22 @@ Perhaps ip6tables or your kernel needs to be upgraded.
 2024/10/11 16:31:22 health("overall"): ok
 2024/10/11 16:41:28 Received error: PollNetMap: unexpected EOF
 2024/10/11 16:41:28 control: netmap: got new dial plan from control
+2024/10/11 17:00:10 wgengine: Reconfig: configuring userspace WireGuard config (with 0/2 peers)
+2024/10/11 17:00:10 wgengine: Reconfig: configuring router
+2024/10/11 17:00:10 wgengine: Reconfig: configuring DNS
+2024/10/11 17:00:10 dns: Set: {DefaultResolvers:[] Routes:{tailae4168.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tailae4168.ts.net.] Hosts:5}
+2024/10/11 17:00:10 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:5 LocalDomains:[tailae4168.ts.net.]+65arpa, cloud="azure"}
+2024/10/11 17:00:10 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tailae4168.ts.net. as3oyaxyermercpknrxo0v1cld.cx.internal.cloudapp.net.] }
+2024/10/11 17:00:10 restarted resolved after 1ms
+2024/10/11 17:00:23 wgengine: idle peer [fPXnU] now active, reconfiguring WireGuard
+2024/10/11 17:00:23 wgengine: Reconfig: configuring userspace WireGuard config (with 1/2 peers)
+2024/10/11 17:00:23 magicsock: disco: node [fPXnU] d:19e796f4e4a686c0 now using 190.89.30.171:41641 mtu=1360 tx=ce9e42384169
+2024/10/11 17:00:23 Accept: TCP{100.124.41.108:49215 > 100.81.89.71:25565} 52 tcp ok
+2024/10/11 17:00:23 Accept: TCP{100.81.89.71:25565 > 100.124.41.108:49215} 52 ok out
+2024/10/11 17:00:23 Accept: TCP{100.124.41.108:49215 > 100.81.89.71:25565} 40 tcp non-syn
+2024/10/11 17:01:10 Accept: TCP{100.124.41.108:49231 > 100.81.89.71:25565} 52 tcp ok
+2024/10/11 17:01:10 Accept: TCP{100.81.89.71:25565 > 100.124.41.108:49231} 52 ok out
+2024/10/11 17:01:10 Accept: TCP{100.124.41.108:49231 > 100.81.89.71:25565} 40 tcp non-syn
+2024/10/11 17:01:20 Accept: TCP{100.81.89.71:25565 > 100.124.41.108:49231} 182 ok out
+2024/10/11 17:01:30 Accept: TCP{100.124.41.108:49231 > 100.81.89.71:25565} 68 tcp non-syn
+2024/10/11 17:01:40 Accept: TCP{100.124.41.108:49231 > 100.81.89.71:25565} 68 tcp non-syn
