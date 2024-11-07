@@ -1,0 +1,47 @@
+[20:24:57] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:25:01] [ServerMain/INFO]: Loaded 1175 recipes
+[20:25:02] [ServerMain/INFO]: Loaded 1276 advancements
+[20:25:02] [Server thread/INFO]: Starting minecraft server version 1.20.6
+[20:25:02] [Server thread/INFO]: Loading properties
+[20:25:02] [Server thread/INFO]: Default game type: SURVIVAL
+[20:25:02] [Server thread/INFO]: Generating keypair
+[20:25:03] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:25:03] [Server thread/INFO]: Using epoll channel type
+[20:25:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:25:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:25:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:25:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:25:03] [Server thread/INFO]: Preparing level "world"
+[20:25:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:25:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:25:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:25:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:25:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:25:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:25:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:25:13] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:25:13] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:25:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:25:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:25:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:25:15] [Server thread/INFO]: Time elapsed: 5267 ms
+[20:25:15] [Server thread/INFO]: Done (11.914s)! For help, type "help"
+[20:25:18] [Server thread/INFO]: XxNeitanxX[/100.78.100.125:49186] logged in with entity id 7 at (-255.30000001192093, 66.0, 221.099244071425)
+[20:25:18] [Server thread/INFO]: XxNeitanxX joined the game
+[20:25:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2418ms or 48 ticks behind
+[20:25:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2249ms or 44 ticks behind
+[20:27:39] [Server thread/WARN]: XxNeitanxX moved too quickly! -0.5023022168018088,-2.2712241076924897,-9.973211115760478
+[20:27:52] [Server thread/WARN]: XxNeitanxX moved too quickly! -4.803096587160724,-2.249187078744683,-8.50411125169152
+[20:29:05] [Server thread/INFO]: XxNeitanxX lost connection: Disconnected
+[20:29:05] [Server thread/INFO]: XxNeitanxX left the game
+[20:29:10] [Server thread/INFO]: Stopping the server
+[20:29:10] [Server thread/INFO]: Stopping server
+[20:29:10] [Server thread/INFO]: Saving players
+[20:29:10] [Server thread/INFO]: Saving worlds
+[20:29:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:29:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[20:29:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[20:29:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:29:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:29:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:29:10] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
